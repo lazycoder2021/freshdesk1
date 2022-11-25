@@ -1,0 +1,298 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <style>
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Helvetica, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        .left-pane {
+            width: 20%;
+            
+        }
+
+        .right-pane {
+            width: 20%;
+            margin-left: 10px;
+        }
+
+        .middle-pane {
+            width: 60%;
+            
+        }
+        .blockContainer{
+            display:flex;
+            flex-wrap:wrap; 
+            
+        }
+
+        .block {
+            border: 1px solid black;
+            width: 420px;
+            padding: 5px;
+        }
+
+        .note {
+            font-family: monospace;
+            font-size: 16px;
+            font-weight: 100;
+            border-left: 5px solid tomato;
+            padding: 10px;
+            border-radius: 10px;
+            line-height: 25px;
+            font-size: 15px;
+        }
+
+        p {
+            line-height: 25px;
+            font-size: 16px;
+        }
+
+        li {
+            line-height: 25px;
+        }
+
+        a {
+            color: orange;
+        }
+
+        .link-container {
+            margin-bottom: 10px;
+        }
+
+        .special-link {
+            color: black;
+            text-decoration: none;
+        }
+
+        .special-bulleted-list {
+            margin-bottom: 10px;
+            font-size: 15px;
+        }
+
+        .special-numbered-list {
+            margin-left: -20px;
+            margin-bottom: 10px;
+            font-size: 15px;
+        }
+
+        .inline {
+            height: 30px;
+        }
+
+        .large {
+            width: 600px;
+            border: 1px solid black;
+        }
+
+        .indented-bullet {
+            list-style-type: none;
+            margin-left: -15px;
+        }
+
+        .indented-number {
+            font-size: 15px;
+            margin-bottom: 5px;
+        }
+
+        @media only screen and (max-width:500px) {
+            .left-pane, .right-pane {
+                display: none;
+            }
+
+            .middle-pane {
+                width: 500px;
+            }
+
+            .large {
+                width: 500px;
+                border: 1px solid black;
+            }
+
+            .indented-bullet {
+                list-style-type: none;
+                margin-left: -60px;
+                color:red; 
+            }
+
+            .indented-number{
+                margin-left:-70px;
+            }
+
+            .image_resize{
+                margin-left:-60px;
+            }
+
+            .image_resizee {
+                margin-left: -100px;
+            }
+
+            .aaa{
+                margin-left:-100px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="left-pane">
+            
+            
+
+            <p><a href="#why" class="special-link">Why I Did What I Did</a></p>
+            
+
+        </div>
+
+        <div class="middle-pane">
+            <div class="blockContainer">
+                <div class="block">
+                    <h2 style="font-weight:100;" id="customer"><b>Customer Journeys</b></h2>
+                    <div class="link-container">
+                        <a href="what_are_customer_journeys.html">
+                            What Are Customer Journeys?
+                        </a>
+                    </div>
+                    <div class="link-container">
+                        <a href="using_pre_defined_customer_journeys.html">
+                            Enabling Pre-Defined Customer Journeys and Using Them
+                        </a>
+                    </div>
+                    <div class="link-container">
+                        <a href="#three" style="color:red;">
+                            Configuring Customer Journeys From Scratch
+                        </a>
+                    </div>
+                    <div class="link-container">
+                        <a href="customer_journey_actions.html">
+                            Costumer Journey Related Actions (Cloning, Deleting <only possible in drafting stage>, Scheduling, Archiving, Stopping)
+                        </a>
+                    </div>
+                </div>
+                <div class="block">
+                    <h2 style="font-weight:100;" id="customer"><b>Using Pre-Defined Chatbots</b></h2>
+                    <div class="link-container">
+                        <a href="what_are_customer_journeys.html" style="color:red;">
+                            Enabling Pre-Defined Chatbots
+                        </a>
+                    </div>
+                    <div class="link-container">
+                        <a href="using_pre_defined_customer_journeys.html" style="color:red;">
+                            Assigning Pre-Defined Chatbots to Topics
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="block">
+                    <h2 style="font-weight:100;" id="customer"><b>Video Demos</b></h2>
+                    <div class="link-container">
+                        <a href="freshchat_integration.html">
+                            Integrating Your Website With FreshChat
+                        </a>
+                    </div>
+                    <div class="link-container">
+                        <a href="advanced_automation.html">
+                            Setting Up Advanced Automation
+                        </a>
+                    </div>
+                    <div class="link-container">
+                        <a href="configuring_customer_journey.html">
+                            Configuring Customer Journey
+                        </a>
+                    </div>
+                    <div class="link-container">
+                        <a href="#four" style="color:red;">
+                           Using FreshChat Chatbots
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <br /><br />
+
+
+
+
+
+
+
+                  <h2 style="font-weight:100;color:red" id="why"><b>Why I Did What I Did</b></h2>
+            <p>With Advanced Automations you can create four types of workflows,</p>
+
+            <ol>
+                <li>Auto Response - You can automate chat responses</li>
+                <li>Auto Resolve - You can auto-resolve conversations</li>
+                <li>Auto Assignment - You can automate conversation assignment  to a specific agent or group</li>
+                <li>Auto Escalation - You can auto-escalate a conversation to a specific agent or a group </li>
+            </ol>
+
+            <p>
+                Automate your daily chat workflows, save time for your Agents, and help them focus on tasks that matter, with Advanced Automations.
+                Automate your daily chat workflows, save time for your Agents, and help them focus on tasks that matter, with Advanced Automations.
+                Advanced Automations is available as an app in the Freshchat Appstore (Marketplace). Click here to get the app.
+            </p>
+
+
+            <div class="note">
+                <b>Note:</b> Freshdesk Support Desk is available as an integration out of the box in the Advanced Automations app. However, you can still use the same app to integrate with other Freshworks products (or other products too) by using custom placeholders to store your domain and tokens.
+            </div>
+
+            <br /><br />
+
+            <h3 style="font-weight:100;" id="four"><b>Customer Journey Related Actions</b></h3>
+            <p>With Advanced Automations you can create four types of workflows,</p>
+
+            <ol>
+                <li>Auto Response - You can automate chat responses</li>
+                <li>Auto Resolve - You can auto-resolve conversations</li>
+                <li>Auto Assignment - You can automate conversation assignment  to a specific agent or group</li>
+                <li>Auto Escalation - You can auto-escalate a conversation to a specific agent or a group </li>
+            </ol>
+
+            <p>
+                Automate your daily chat workflows, save time for your Agents, and help them focus on tasks that matter, with Advanced Automations.
+                Automate your daily chat workflows, save time for your Agents, and help them focus on tasks that matter, with Advanced Automations.
+                Advanced Automations is available as an app in the Freshchat Appstore (Marketplace). Click here to get the app.
+            </p>
+
+
+            <div class="note">
+                <b>Note:</b> Freshdesk Support Desk is available as an integration out of the box in the Advanced Automations app. However, you can still use the same app to integrate with other Freshworks products (or other products too) by using custom placeholders to store your domain and tokens.
+            </div>
+            <br /><br />
+
+
+
+
+        </div>
+
+            <div class="right-pane">
+                <p><b>Related Articles</b></p>
+                <p>Dummy Article</p>
+                <p>Dummy Article</p>
+                <p>Dummy Article</p>
+                <p>Dummy Article</p>
+            </div>
+        </div>
+
+    <script>
+        
+    </script>
+</body>
+</html>

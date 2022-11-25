@@ -1,0 +1,346 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <style>
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Helvetica, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        .left-pane {
+            width: 20%;
+            
+        }
+
+        .right-pane {
+            width: 20%;
+            margin-left: 10px;
+        }
+
+        .middle-pane {
+            width: 60%;
+        }
+
+        .note {
+            font-family: monospace;
+            font-size: 16px;
+            font-weight: 100;
+            border-left: 5px solid tomato;
+            padding: 10px;
+            border-radius: 10px;
+            line-height: 25px;
+            font-size: 15px;
+        }
+
+        p {
+            line-height: 25px;
+            font-size: 16px;
+        }
+
+        li {
+            line-height: 25px;
+        }
+
+        a {
+            color: orange;
+        }
+
+        .link-container {
+            margin-bottom: 10px;
+        }
+
+        .special-link {
+            color: black;
+            text-decoration: none;
+        }
+
+        .special-bulleted-list {
+            margin-bottom: 10px;
+            font-size: 15px;
+        }
+
+        .special-numbered-list {
+            margin-left: -20px;
+            margin-bottom: 10px;
+            font-size: 15px;
+        }
+
+        .inline {
+            height: 30px;
+        }
+
+        .large {
+            width: 600px;
+            border: 1px solid black;
+        }
+
+        .indented-bullet {
+            list-style-type: none;
+            margin-left: -15px;
+        }
+
+        .indented-number {
+            font-size: 15px;
+            margin-bottom: 5px;
+        }
+
+        .backbutton{
+            border:1px solid black;
+            padding:5px 10px;
+        }
+
+        .backbutton a{
+            color:black;
+            text-decoration: none; 
+        }
+
+        @media only screen and (max-width:500px) {
+            .left-pane, .right-pane {
+                display: none;
+            }
+
+            .middle-pane {
+                width: 500px;
+            }
+
+            .large {
+                width: 500px;
+                border: 1px solid black;
+            }
+
+            .indented-bullet {
+                list-style-type: none;
+                margin-left: -60px;
+                color:red; 
+            }
+
+            .indented-number{
+                margin-left:-70px;
+            }
+
+            .image_resize{
+                margin-left:-60px;
+            }
+
+            .image_resizee {
+                margin-left: -100px;
+            }
+
+            .aaa{
+                margin-left:-100px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="left-pane">
+            
+
+            <p><a href="index.html#why" class="special-link">Why I Did What I Did</a></p>
+            
+
+        </div>
+
+        <div class="middle-pane">
+            <span class="backbutton"><a href="index.html">Go Back</a></span>
+
+            <h2 style="font-weight:100;" id="one"><b>Customer Journey Related Actions</b></h2>
+            <p>
+                Once you have configured a Customer Journey, you can perform the following actions on it.
+
+            </p>
+
+
+            <ul>
+                <li><a href ="#scheduling">Scheduling a Customer Journey</a></li>
+                <li><a href="#viewing">Viewing Customer Journey Analytics</a></li>
+                <li><a href="#stopping">Stopping a Customer Journey</a></li>
+                <li><a href="#cloning">Cloning a Customer Journey</a> </li>
+                <li><a href="#archiving">Archiving a Customer Journey</a></li>
+            </ul>
+
+            <br />
+
+            <h3 id="scheduling">Scheduling a Customer Journey</h3>
+
+            <p>
+                By clicking <img src="images/customer-journey-icon.jpg" class="inline" /> icon in the <b>left navbar</b>, you can access the <b>customer journeys</b> page.
+
+            </p>
+
+
+            <img src="images/customer-journey-page.png" class="large" />
+
+            <ul>
+                <li class="special-bulleted-list">
+                    In the left pane, <b>pre-defined customer journeys</b> are grouped together under various categories like <b>Track Orders, After-sales support, Grow your audience, Recommended for you,</b> etc.,
+                </li>
+                <li class="special-bulleted-list">
+                    In the right pane, customer journeys belonging to the <b>selected category</b> get listed. You can enable a customer journey by clicking <b>Enable Journey</b> icon. Read <a href="#two">how to enable (and configure) a pre-defined customer journey</a> to know more.
+
+                </li>
+                <li class="special-bulleted-list">
+                    You also have the <b>'Create from Scratch'</b> button in the right pane, using which you can configure a customer journey from scratch to suit your requirements. Read <a href="#">creating customer journeys from scratch</a> to know more.
+
+                </li>
+            </ul>
+
+
+
+            <br />
+
+            <h3 id="viewing">Viewing Customer Journey Analytics</h3>
+
+            <p>
+                By clicking <img src="images/customer-journey-icon.jpg" class="inline" /> icon in the <b>left navbar</b>, you can access the <b>customer journeys</b> page.
+
+            </p>
+
+
+            <img src="images/customer-journey-page.png" class="large" />
+
+            <ul>
+                <li class="special-bulleted-list">
+                    In the left pane, <b>pre-defined customer journeys</b> are grouped together under various categories like <b>Track Orders, After-sales support, Grow your audience, Recommended for you,</b> etc.,
+                </li>
+                <li class="special-bulleted-list">
+                    In the right pane, customer journeys belonging to the <b>selected category</b> get listed. You can enable a customer journey by clicking <b>Enable Journey</b> icon. Read <a href="#two">how to enable (and configure) a pre-defined customer journey</a> to know more.
+
+                </li>
+                <li class="special-bulleted-list">
+                    You also have the <b>'Create from Scratch'</b> button in the right pane, using which you can configure a customer journey from scratch to suit your requirements. Read <a href="#">creating customer journeys from scratch</a> to know more.
+
+                </li>
+            </ul>
+
+            <br />
+
+            <br />
+
+            <h3 id="stopping">Stopping a Customer Journey </h3>
+
+            <p>
+                By clicking <img src="images/customer-journey-icon.jpg" class="inline" /> icon in the <b>left navbar</b>, you can access the <b>customer journeys</b> page.
+
+            </p>
+
+
+            <img src="images/customer-journey-page.png" class="large" />
+
+            <ul>
+                <li class="special-bulleted-list">
+                    In the left pane, <b>pre-defined customer journeys</b> are grouped together under various categories like <b>Track Orders, After-sales support, Grow your audience, Recommended for you,</b> etc.,
+                </li>
+                <li class="special-bulleted-list">
+                    In the right pane, customer journeys belonging to the <b>selected category</b> get listed. You can enable a customer journey by clicking <b>Enable Journey</b> icon. Read <a href="#two">how to enable (and configure) a pre-defined customer journey</a> to know more.
+
+                </li>
+                <li class="special-bulleted-list">
+                    You also have the <b>'Create from Scratch'</b> button in the right pane, using which you can configure a customer journey from scratch to suit your requirements. Read <a href="#">creating customer journeys from scratch</a> to know more.
+
+                </li>
+            </ul>
+
+            <br />
+
+            <br />
+
+            <h3 id="cloning">Cloning a Customer Journey </h3>
+
+            <p>
+                By clicking <img src="images/customer-journey-icon.jpg" class="inline" /> icon in the <b>left navbar</b>, you can access the <b>customer journeys</b> page.
+
+            </p>
+
+
+            <img src="images/customer-journey-page.png" class="large" />
+
+            <ul>
+                <li class="special-bulleted-list">
+                    In the left pane, <b>pre-defined customer journeys</b> are grouped together under various categories like <b>Track Orders, After-sales support, Grow your audience, Recommended for you,</b> etc.,
+                </li>
+                <li class="special-bulleted-list">
+                    In the right pane, customer journeys belonging to the <b>selected category</b> get listed. You can enable a customer journey by clicking <b>Enable Journey</b> icon. Read <a href="#two">how to enable (and configure) a pre-defined customer journey</a> to know more.
+
+                </li>
+                <li class="special-bulleted-list">
+                    You also have the <b>'Create from Scratch'</b> button in the right pane, using which you can configure a customer journey from scratch to suit your requirements. Read <a href="#">creating customer journeys from scratch</a> to know more.
+
+                </li>
+            </ul>
+
+            <br />
+
+            <br />
+
+            <h3 id="archiving">Archiving a Customer Journey </h3>
+
+            <p>
+                By clicking <img src="images/customer-journey-icon.jpg" class="inline" /> icon in the <b>left navbar</b>, you can access the <b>customer journeys</b> page.
+
+            </p>
+
+
+            <img src="images/customer-journey-page.png" class="large" />
+
+            <ul>
+                <li class="special-bulleted-list">
+                    In the left pane, <b>pre-defined customer journeys</b> are grouped together under various categories like <b>Track Orders, After-sales support, Grow your audience, Recommended for you,</b> etc.,
+                </li>
+                <li class="special-bulleted-list">
+                    In the right pane, customer journeys belonging to the <b>selected category</b> get listed. You can enable a customer journey by clicking <b>Enable Journey</b> icon. Read <a href="#two">how to enable (and configure) a pre-defined customer journey</a> to know more.
+
+                </li>
+                <li class="special-bulleted-list">
+                    You also have the <b>'Create from Scratch'</b> button in the right pane, using which you can configure a customer journey from scratch to suit your requirements. Read <a href="#">creating customer journeys from scratch</a> to know more.
+
+                </li>
+            </ul>
+
+            <br />
+
+
+
+
+
+
+
+
+
+
+
+            <span class="backbutton"><a href="index.html">Go Back</a></span>
+
+        </div>
+
+            <div class="right-pane">
+                <p><b>Related Articles</b></p>
+                <p>Dummy Article</p>
+                <p>Dummy Article</p>
+                <p>Dummy Article</p>
+                <p>Dummy Article</p>
+            </div>
+        </div>
+
+    <script>
+        
+    </script>
+</body>
+</html>
